@@ -49,15 +49,9 @@ nav .inner {
   padding: 18px 28px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 16px;
   flex-wrap: wrap;
-}
-nav .brand {
-  font-size: 17px;
-  font-weight: 700;
-  color: var(--text);
-  letter-spacing: 0.01em;
 }
 nav ul {
   display: flex;

@@ -12,7 +12,6 @@ export default function App() {
     <>
       <nav>
         <div className="inner">
-          <span className="brand">{PROFIL.nama}</span>
           <ul>
             <li><a href="#pengalaman">Experience</a></li>
             <li><a href="#keahlian">Skills</a></li>
