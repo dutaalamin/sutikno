@@ -13,10 +13,10 @@ export default function App() {
       <nav>
         <div className="inner">
           <ul>
-            <li><a href="#pengalaman">Experience</a></li>
-            <li><a href="#keahlian">Skills</a></li>
-            <li><a href="#sertifikat">Training</a></li>
-            <li><a href="#kontak">Contact</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#training">Training</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
@@ -32,7 +32,7 @@ export default function App() {
         </header>
 
         {/* ================= EXPERIENCE ================= */}
-        <section id="pengalaman">
+        <section id="experience">
           <div className="wrap">
             <h2>Work Experience</h2>
             <div className="kerja">
@@ -57,7 +57,7 @@ export default function App() {
         </section>
 
         {/* ================= SKILLS ================= */}
-        <section id="keahlian">
+        <section id="skills">
           <div className="wrap">
             <h2>Technical Expertise</h2>
             <div className="skills">
@@ -88,7 +88,7 @@ export default function App() {
         </section>
 
         {/* ================= CERTIFICATES ================= */}
-        <section id="sertifikat">
+        <section id="training">
           <div className="wrap">
             <h2>Training and Certification</h2>
             <ul className="certs">
@@ -115,7 +115,7 @@ export default function App() {
         </section>
 
         {/* ================= CONTACT ================= */}
-        <section id="kontak" style={{ borderBottom: "none" }}>
+        <section id="contact" style={{ borderBottom: "none" }}>
           <div className="wrap kontak">
             <h2>Contact</h2>
             <p>Open to DCS and control room operator roles, both domestic and international.</p>
