@@ -31,9 +31,6 @@ export default function App() {
             <h1>{PROFIL.nama}</h1>
             <p className="jabatan">{PROFIL.jabatan}</p>
             <p className="ringkas">{PROFIL.ringkas}</p>
-            <a className="tombol-unduh" href="/CV-Sutikno.pdf" download>
-              Download CV
-            </a>
           </div>
         </header>
 
@@ -126,8 +123,8 @@ export default function App() {
             <h2>Contact</h2>
             <p>Open to DCS and control room operator roles, both domestic and international.</p>
             <div className="baris">
-              <span>Email: <a href={`mailto:${PROFIL.email}`}>{PROFIL.email}</a></span>
-              <span>LinkedIn: <a href={PROFIL.linkedin} target="_blank" rel="noreferrer">{PROFIL.linkedin.replace("https://", "")}</a></span>
+              <a href={`mailto:${PROFIL.email}`}>Gmail</a>
+              <a href={PROFIL.linkedin} target="_blank" rel="noreferrer">LinkedIn</a>
             </div>
           </div>
         </section>
