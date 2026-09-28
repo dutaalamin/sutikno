@@ -69,7 +69,7 @@ nav ul a:hover {
 
 /* ---------- Hero / Header ---------- */
 .hero {
-  padding: 54px 0 40px;
+  padding: 44px 0 8px;
 }
 .hero h1 {
   font-size: clamp(30px, 5vw, 42px);
@@ -100,7 +100,7 @@ nav ul a:hover {
 
 /* ---------- Section ---------- */
 section {
-  padding: 34px 0;
+  padding: 18px 0;
 }
 section h2 {
   font-size: 20px;
