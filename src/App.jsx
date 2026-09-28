@@ -18,9 +18,6 @@ export default function App() {
             <li><a href="#sertifikat">Training</a></li>
             <li><a href="#kontak">Contact</a></li>
           </ul>
-          <a className="nav-unduh" href="/CV-Sutikno.pdf" download>
-            Download CV
-          </a>
         </div>
       </nav>
 
@@ -125,6 +122,7 @@ export default function App() {
             <div className="baris">
               <a href={`mailto:${PROFIL.email}`}>Gmail</a>
               <a href={PROFIL.linkedin} target="_blank" rel="noreferrer">LinkedIn</a>
+              <a href="/CV-Sutikno.pdf" download>CV</a>
             </div>
           </div>
         </section>

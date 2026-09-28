@@ -49,29 +49,15 @@ nav .inner {
   padding: 18px 28px;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 16px;
   flex-wrap: wrap;
 }
 nav ul {
-  flex: 1;
   display: flex;
   gap: 22px;
   list-style: none;
   font-size: 14.5px;
-  justify-content: center;
-}
-.nav-unduh {
-  font-size: 13.5px;
-  font-weight: 600;
-  color: #fff;
-  background: var(--accent);
-  padding: 7px 15px;
-  border-radius: 7px;
-  white-space: nowrap;
-}
-.nav-unduh:hover {
-  background: #163a68;
-  text-decoration: none;
 }
 nav ul a {
   color: var(--muted);
