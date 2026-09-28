@@ -50,8 +50,37 @@ nav .inner {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
+  gap: 28px;
   flex-wrap: wrap;
+}
+.nav-unduh {
+  font-size: 13.5px;
+  font-weight: 600;
+  color: #fff;
+  background: var(--accent);
+  padding: 7px 15px;
+  border-radius: 7px;
+  white-space: nowrap;
+}
+.nav-unduh:hover {
+  background: #163a68;
+  text-decoration: none;
+}
+
+/* Tombol download di bawah summary */
+.tombol-unduh {
+  display: inline-block;
+  font-size: 14.5px;
+  font-weight: 600;
+  color: #fff;
+  background: var(--accent);
+  padding: 11px 22px;
+  border-radius: 8px;
+  margin-top: 6px;
+}
+.tombol-unduh:hover {
+  background: #163a68;
+  text-decoration: none;
 }
 nav ul {
   display: flex;

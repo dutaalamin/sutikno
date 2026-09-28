@@ -18,6 +18,9 @@ export default function App() {
             <li><a href="#sertifikat">Training</a></li>
             <li><a href="#kontak">Contact</a></li>
           </ul>
+          <a className="nav-unduh" href="/CV-Sutikno.pdf" download>
+            Download CV
+          </a>
         </div>
       </nav>
 
@@ -28,11 +31,9 @@ export default function App() {
             <h1>{PROFIL.nama}</h1>
             <p className="jabatan">{PROFIL.jabatan}</p>
             <p className="ringkas">{PROFIL.ringkas}</p>
-            <div className="baris">
-              <span>{PROFIL.lokasi}</span>
-              <a href={`mailto:${PROFIL.email}`}>{PROFIL.email}</a>
-              <a href={PROFIL.linkedin} target="_blank" rel="noreferrer">LinkedIn</a>
-            </div>
+            <a className="tombol-unduh" href="/CV-Sutikno.pdf" download>
+              Download CV
+            </a>
           </div>
         </header>
 
